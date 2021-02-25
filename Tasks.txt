@@ -1,0 +1,14 @@
+NLP Homework:
+
+1. What is lemmatization?
+
+    Is the process of take a token (or tokens) an get their dictionary entry value. Get a root of word. We could get by stemming but is a poor aproach. 
+    We also get the lemmas using a framework as spacy, for the common cases could use one of its own models, but if you need to handle noise texts, as twits or fb comments, 
+    may be you wanna try to adding special rules, or as well train a custom lemmatizer that can handle with the most creative or domain specific lexical forms for some cocepts. 
+     
+
+2. Problem: Suppose we are building an app that surveys people about their hobbies using freeform sentences. We’d like to be able to group together similar responses so that we can understand where people tend to cluster. Given two sentences, write code that measures their “similarity”.
+
+*For example, how similar are these two sentences: “I like to eat when I travel” and “I like walking when I travel”? Please include comments that explain what definition of similarity you are using and why you chose it, as well as explaining any other particular design choices you made. Include some sample runs showing similar and dissimilar sentences as “anecdotal evidence” that your calculation looks reasonable. What direction would you look in if you wanted to “improve” the calculation?
+
+3. Problem: Suppose you had a corpus of corporate agreements, for example: vendor agreements, NDAs, privacy policies, etc. Describe your thoughts on building a model that is able to cluster the documents so that you would expect NDAs to be in one cluster and privacy policies in another cluster.

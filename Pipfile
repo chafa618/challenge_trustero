@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+jupyterlab = "*"
+jupyter = "*"
+
+[packages]
+nltk = "*"
+pandas = "*"
+scikit-learn = "*"
+fasttext = "*"
+importlib-metadata = "==1.7.0"
+spacy = "==2.3"
+spacy-sentence-bert = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+install_modules = "python delivery/install_modules.py"
