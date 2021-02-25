@@ -16,4 +16,6 @@
 
     9. To download fasttext model go to https://fasttext.cc/docs/en/crawl-vectors.html
 
+    10. Goes "Lematization" notebook
+
 
